@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Cópia Audi BR</title>
+
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+
+
+
+
+    <style>
+         html{
+    margin: 0;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: white;
+    background-image:  url("imagens/f1_copia1.avif");
+    background-repeat: no-repeat;
+    background-color: #101319;
+    
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.header_color-dark{
+    background-color:#000000;
+    color: white;
+    
+}
+
+.nav-header{
+    padding: .5em;
+    
+}
+.logo_header{
+    max-width: 6em;
+    align-items: center;
+    margin-left: 5em;
+    margin-right: 1em;
+}
+
+
+.header_site{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.header_ul{
+    display:flex;
+    justify-content:left;
+    align-items: center;
+    font-size: .8em;
+    margin: 0;   
+    padding: 0;
+    list-style-type: none;
+    gap: 1em; 
+}
+
+.li_header{
+    text-decoration: none;
+    color: white;
+}
+
+.dealer_location{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right:auto;
+    margin-left: auto;
+    padding-left: 1em; 
+    border-radius: 3em; 
+    background-color: #000000;
+    color: white;
+    border: none; 
+    font-weight: bold;
+    padding-right:1em;
+
+}
+
+.botaum:hover{
+    border: 1px solid white;
+    padding: 1em;
+    
+}
+
+.localizar_button{
+    max-width: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+       
+}
+
+.hero_title{
+    display: flex;
+    text-align: center;
+    font-size: 2.3em;
+    font-weight: bold;
+    margin-top: 18.5em;
+    margin-left:3em;
+    letter-spacing: 4px;
+    padding-left: 2em;
+
+}
+
+a[class$="imgbtn"]::before{
+    content: url(pin.png);
+    justify-content:column;
+    margin: 0;
+    max-width: .3em;
+}
+
+.imgbtn{
+    max-width:1.5em;
+}
+
+h1{
+    display: flex;
+    color: black;
+}
+
+.first_button{
+    display: flex;
+    font-weight: bold;
+    max-width: fit-content;
+    color:#ced8e0;
+    font-size: .85em;
+    background-color:#181D25;
+    border-radius: 2em;
+    text-decoration: none;
+    padding: 1.2em;
+    margin: 3.5em 13em 5em;
+}
+
+.content_principal{
+    padding-bottom: 5em;
+}
+
+.subtitle_content{
+    font-size: 2em;
+}
+
+.content_paragraph{
+    font-size:1.2em 
+}
+
+.content_principal-babosa{
+    margin: 15em 6em 5em;
+    
+}
+
+.second_image{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 2em;
+    width: 91%;
+    align-items: center;
+}
+
+.action_image1{
+    display: flex;
+    padding-top: 3em;
+    padding-bottom: 5em;
+}
+
+.third_image{
+   align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    margin: 2em;
+    border-radius: 2em;
+    margin-left: auto;
+    margin-right: .6em;
+    
+   
+}
+
+.fourth_image{
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    margin: 2em;
+    border-radius: 2em;
+    margin-right: auto;
+    margin-left: .6em;
+
+    
+}
+
+.action_image2{
+    display: flex;
+    padding-top: 3em;
+    
+}
+
+.piloto_image1{
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    margin: 2em;
+    border-radius: 2em;
+    margin-left: auto;
+    margin-right: .6em;
+}
+
+.piloto_image2{
+    align-items:center;
+    justify-content: space-between;
+    width: 45%;
+    margin: 2em;
+    border-radius: 2em;
+    margin-right: auto;
+    margin-left: .6em;
+
+}
+
+.description_pilot-organize{
+    display: flex;
+    align-items: center;
+}
+
+.description_pilot1{
+    max-width: 45%;
+    margin-right: auto;
+    margin-left: 5.5em;
+    padding-right:1em ;
+    color: #B5B7B8;
+    font-weight: 500;
+}
+
+.description_pilot2{
+    max-width: 55%;
+    margin-left: auto;
+    margin-left: 1em ;
+    padding-right: 3em;
+    color: #B5B7B8;
+    font-weight: 500;
+}
+
+.father_fifth-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fifth_image{
+    margin-top: 5em;
+    border-radius: 2em;
+}
+
+.color_choice-help{
+    max-height: 70%;
+    margin: 4em;
+    margin-bottom: .8em;
+}
+
+.color_choice-help-p{
+    max-width: 80%;
+    margin: 2em;
+    margin-left:7em;
+}
+
+.third_p{
+    margin-left: 3em;
+    margin-bottom: 4em;
+}
+
+.third_h2{
+    margin: 2em;
+    margin-bottom: 1em;
+}
+
+.footer_p{
+    font-size: .9em;
+    margin-left: 5em;
+    margin-top: 1em;
+    margin-bottom: 6em;
+    font-weight: bold;
+    color:#B5B7B8;
+
+}
+
+.last_video{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.last_article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 3em;
+}
+
+.last_f1-car{
+    margin: 1em;
+    margin-top: 7em;
+    margin-bottom: 5em;
+    border-radius: 2em;
+}
+
+.hero_subtitle2{
+    font-size: 2.5em;
+    margin: 1em;
+}
+.hero_p2{
+    margin-left: 3.5em;
+    margin-bottom: 3.5em;
+    font-weight: bold;
+    font-size: 1em;
+    color: #B5B7B8;  
+}
+
+.button_last{
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #646b71;
+    color: white;
+    margin-left: 3.5em;
+    padding: 1.3em;
+    border-radius: 2em;
+    margin-top: 2em;
+}
+
+.button_last:hover{
+    background-color: #272b2e;
+}
+
+.content_text{
+    display: block;
+}
+
+.topicos_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5em;
+}
+
+.topico{
+    margin-right: .75em;
+    margin-right: .75em;
+    height: 35em;  
+}
+.topico img{
+    border-radius: 1em;
+}
+
+.h3_content{
+    font-size: 1.7em;
+    margin-left: .3em;
+    margin-bottom: .2em;
+    max-width: 82%;             
+}
+
+.p_topic{
+    margin-left: .3em;
+    margin-bottom: 2em;
+    color: #B5B7B8;
+    max-width: 82%;
+}
+
+.a_topic{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    padding-bottom: .3em;
+}
+
+.a_decoration{
+    border: none;
+    padding-left: .5em;
+    font-size: 1.2em;
+}
+
+footer{
+    background-color: black;
+    padding: 2em 3em 3em;
+}
+
+.section_footer{
+    display: flex;
+    gap: 2.5em;
+    max-height: 30em;
+    max-width: 100%;
+    margin: 1em; 
+    margin-left: 5em;    
+}
+
+.section_footer li{
+    padding-bottom: .8em;
+}
+
+.h3_footer{
+    font-size: 1.3em;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1.2px;
+}
+
+.other_services{
+     padding-inline-start:0;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.go_start{
+    display: flex;
+    justify-content: flex-end;
+    color: #B5B7B8;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 1em;
+}
+
+.social_media{
+    display: flex;
+    justify-content: end;
+    margin-top: 5em;    
+}
+
+.social_media img{
+    width: 1em;
+    background-color: #181D25;
+    margin-right: .3em;
+    padding: 1em;
+    border-radius: 1.3em;    
+}
+
+.last_div-footer{
+    margin-left: 1em; 
+    margin-top: 3.5em;
+    display: flex;
+    align-items: center;
+    color: #B5B7B8;
+    font-size: .87em;
+}
+
+.last_div-footer a{
+    color: #B5B7B8;
+    text-decoration: none;
+    
+}
+
+.last_div-footer ul{
+    display: flex;
+    
+}
+.last_div-footer li{
+    margin: 1em;
+    list-style-type: none;
+}
+
+img[alt="ibama logo"]{
+    content:icon;
+    align-items: center;
+    max-width:2.8em;
+    border-radius: 2em;
+}
+
+.ibama{
+    display: flex;
+    margin: 2em;
+    align-items: center;
+}
+.ibama p{
+    margin-left: 1em;
+    font-size: .8em;
+    color:#B5B7B8;
+    font-weight: bold;
+}
+
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="nav-header header_color-dark" id="inicio">
+    <header class="header_site">
+    <img src="imagens/Audi-Branco-1024x576.webp" alt="logotipoaudi" class="logo_header">
+    <nav>
+        <ul class="header_ul">
+        <a href="#" class="li_header"><li>Modelos e Configuração</li></a> 
+        <a href="#"class="li_header"><li>Compra e Locação</li></a>
+        <a href="#"class="li_header"><li>Serviços ao Cliente</li></a>
+        <a href="#"class="li_header"><li>Eletromobilidade</li></a>
+        <a href="#"class="li_header"><li>Universo Audi</li></a>
+        <a href="#"class="li_header"><li>Contato</li></a>
+        </ul>
+        
+    </nav>  
+    <div class="dealer_location">
+
+         <a href="#" class="dealer_location botaum"><img src="imagens/pin.png" alt="botao branco" class="imgbtn">Localizar revendedor</a>
+        </div>
+        
+        </div>
+        
+        <section>
+            <div>
+            <h1 class="hero_title">Corremos em busca do progresso. Além da linha de chegada.</h1>
+
+            <a href="#" class="first_button">Solicite uma proposta</a>
+            </div>
+        </section>      
+        </div>
+    </header>
+        <div class="content_principal">
+            <section>
+                <div class="content_principal-babosa">
+                <h2 class="subtitle_content">Nosso coração bate mais rápido</h2>
+
+                <p class="content_paragraph">Cinco continentes, 24 corridas, milhares de quilômetros de distância percorrida, novas tecnologias. A atitude com que a equipe Audi Revolut F1® encara a temporada é emblemática de uma mentalidade caracterizada pelo progresso tecnológico, invovação e excelência. A série de corridas oferece à Audi um palco espetacular para demonstrar mais uma vez "Vorsprung durch Technik" (avanço pela tecnologia).</p>
+                </div>
+                <img src="imagens/F1_2026_9161_HUL33333333333.avif" alt="carro f1 visto de cima" class="second_image">
+
+                <div class="action_image1">
+                <img src="imagens/F1_2026_9163_HUL555555.avif" alt=" carro f1 de trás"
+                class="third_image">
+
+                <img src="imagens/F1_2026_9158_BOR_HUL4444444.avif" alt="carro f1 em ângulo de 45 graus" class="fourth_image">
+
+                 </div>
+
+                <div class="action_image2">
+                <img src="imagens/F1_p_2026_9224_HUL-L.avif" alt="piloto hulkenberg" class="piloto_image1">
+
+                
+                <img src="imagens/F1_p_2026_9236_BOR-L.avif" alt="piloto bortoleto" class="piloto_image2">
+                
+                </div>
+                <div class="description_pilot-organize">
+                <p class="description_pilot1">Nosso querido vovô Hulkenberg está correndo a mais tempo na F1 que a sua vó assiste novela das 9. Mas tem grande capacidade de acrescentar na equipe com seu grande conhecimento nas pistas</p>
+
+                <p class="description_pilot2">Nosso querido Borboleto representante do Brasil, tão jovem e ja tem varias experiencias de como dirigir um trator na F1</p>
+
+                </div>
+            </section>
+            <div class="father_fifth-image">
+            <img src="imagens/F1_2026_9156_BOR66666666L.avif" alt="foto do carro completo em 45 graus para a direita" class="fifth_image">
+        </div>
+        <h2 class="subtitle_content color_choice-help">Escolha sua cor preferida</h2>
+
+            <p class="content_paragraph color_choice-help-p">A entrada da Audi na Formula 1® vai além da ambição esportiva. O automobilismo está no DNA da marca e isso se reflete nesta seleção exclusiva de cores inspiradas nas pistas. Cada tom carrega uma história: de vitórias, circuitos e lendas. É pura performance traduzida em cores.</p>
+            </div>
+
+        <div class="carrossel_container">
+        <div class="video_card">
+        <video controls autoplay muted loop><source src="imagens/racing-colours-daytona-gray.mp4"></video>
+        </div>
+        </div>
+        <div>
+            <h2 class="subtitle_content third_h2">O jeito americano de correr</h2>     
+        <p class="content_paragraph third_p">A corrida de resistência dos Estados Unidos são um território familiar para a Audi. O lendário circuito oval de Daytona Internacional Speedway, na Flórida, foi palco de grandes vitórias da marca. E o Daytona Grey, carrega esse legado:profundo, sofisticado e com um elegante efeito perolizado</p>
+
+        <p class="footer_p">Imagem meramente ilustrativa. Essa versão não contém no Brasil</p>
+        </div>
+
+        <section>
+            <div>
+            <h2 class="subtitle_content third_h2">Desafiante. Competidora. Campeã.</h2>
+            <p class="content_paragraph third_p">A Audi venceu todas as grandes categorias nas quais competiu: das aventuras alpinas aos lendários Silver Arrows da Auto Union, das vitórias históricas nos ralis e conquistas de resistência em Le Mans ao DTM e ao Rally Dakar. Da aerodinâmica à engenharia de estrutura leve, do quattro ao TDI e ao e-tron. Com mais de 100 anos de legado nas pistas, a Audi chega à Formula 1® como desafiante, com a mesma ambição que definiu seu sucesso até aqui e a mesma humildade para recomeçar.</p>
+
+            <video controls autoplay muted loop><source src="imagens/motorsport-2.mp4" class="last_video"></video>
+            </div>
+        </section>
+
+        <section class="last_article">
+            <div class="content_text">
+                
+                <h2 class="hero_subtitle2">O ponto de encontro oficial do Projeto Audi F1®</h2>
+                <p class="hero_p2">Explore o Projeto Audi F1®: equipe, tecnologia, cronograma e a visão que guia tudo isso com a melhor cobertura do Brasil.</p>
+                
+                <a href="#" class="button_last">Audi F1 Team</a>
+            </div>
+
+            <div>
+                <img src="imagens/F1_2026_9159_HUL-S777777777777777.avif" alt=" carro de f1 visivel de frente" class="last_f1-car">
+            </div>
+        </section>
+
+        <section class="topicos_section">
+            <div class="topico">
+            <img src="imagens/topico1.avif" alt="perua da audi">
+            <h3 class="h3_content">Audi driving experience*</h3>
+            <p class="p_topic">Conheça moledos selecionados que fazem parte do programa completo Audi divring experience*.</p>
+
+            <a href="#" class="a_topic">Saiba mais </a><a href="#" class="a_topic a_decoration">></a>
+            </div>
+
+            <div class="topico">
+                <img src="imagens/topico2.avif" alt="carro audi sedan">
+                <h3 class="h3_content">Econtre o esportivo da Audi ideal para você.</h3>
+                <p class="p_topic">Pegue o camingo mais rápido até os modelos de alta performance selecionados pela Audi. Conheça os veículos mais dinâmicos da marca.</p>
+
+                <a href="#" class="a_topic">Saiba mais</a><a href="#" class="a_topic a_decoration">></a>
+            </div>
+            
+            <div class="topico">
+                <img src="imagens/topico3.avif" alt="homem adulto mexendo no celular">
+                <h3 class="h3_content">Pole position para quem está por dentro.</h3>
+                <p class="p_topic">Tenha acesso exclusivo aos bastidores do Projeto Audi F1®. Atualizações técnicas, notícias da equipe e os melhores momentos das corridas, tudo dieto na sua casa de entrada. Inscreva-se agora para receber as newsletter.
+                </p>
+
+                <a href="#" class="a_topic">Saiba mais</a><a href="#" class="a_topic a_decoration">></a>
+            </div>
+        </section>
+        
+    <footer>               
+        
+        
+        <a href="#inicio" class="go_start">Voltar ao topo ></a>
+            
+        <section class="section_footer">
+            
+        <div>
+           
+            <ul class="other_services">
+                <h3 class="h3_footer">Compra e Locação</h3>
+                <li>Condições Audi</li>
+                <li>Vendas Corporativas</li>
+                <li>Audi Approved:plus</li>
+                <li>Audi Signature</li>
+                <li>Peças e Acessórios</li>
+            </ul>
+        </div>
+
+        <div>
+            
+            <ul class="other_services">
+                <h3 class="h3_footer">Serviços ao Cliente</h3>
+                <li>Manutenção e Reparos</li>
+                <li>Serviços de Proteção</li>
+                <li>Rede de Concessionaria</li>
+                <li>Consulta Recall</li>
+            </ul>
+        </div>
+            <div>
+            
+            <ul class="other_services">
+                <h3 class="h3_footer">Eletromobilidade</h3>
+                <li>Universo da mobilidade eletríca</li>
+                <li>Dúvidas de eletrificação</li>
+                <li>App e-tron</li>
+                <li>Planejamento de recarga</li>
+            </ul>
+        </div>
+
+        <div>
+            
+            <ul class="other_services">
+                <h3 class="h3_footer">Universo Audi</h3>
+                <li>Audi no Brasil</li>
+                <li>Stories of Progress</li>
+                <li>O Legado do S</li>
+                <li>Audi Driving Experience</li>
+                <li>ESG</li>
+                <li>Tecnologias Audi</li>
+                <li>Audi exclusive</li>
+                <li>Audi Collection</li>
+            </ul>
+        </div>
+
+        <div>
+            
+            <ul class="other_services">
+                <h3 class="h3_footer">Contato</h3>
+                <li>Fale Conosco</li>
+                <li>Trabalhe Conosco</li>
+                <li>Canais de Denúncia</li>
+                <li>Programa de compliance</li>
+            </ul>
+        </div>
+
+        
+        </section>
+        <div class="social_media">
+        <a href="https://www.facebook.com/AudiBrasil/" target="_blank"><img src="imagens/facebook.png" alt="facebook logo"></a>
+        <a href="https://www.instagram.com/accounts/login/?next=%2Faudibr%2F&source=omni_redirect" target="_blank"><img src="imagens/instagram.png" alt="instagram logo"></a>
+        <a href="https://www.youtube.com/channel/UCdlSVdgDNGRTRljyk-hhWSQ" target="_blank"><img src="imagens/youtube.png" alt="youtube logo"></a>
+        <a href="https://x.com/AudiBR" target="_blank"><img src="imagens/twitter.png" alt="twitter logo"></a>
+        </div>
+
+        <hr>
+        <div class="last_div-footer"> 
+            <p>© 2026 AUDI AG. All Rights Reserved.</p>          
+            <ul>
+                <li><a href="https://delivery-p123727-e1214567.adobeaemcloud.com/adobe/assets/urn:aaid:aem:c5f4991a-521a-4375-a185-c4fa6b45d29e/original/as/DeclaracaodePrivacidadeAudi.pdf" target="_blank" >Políticas de Privacidade</a></li>
+                <li><a href="https://emea-dam.audi.com/adobe/assets/urn:aaid:aem:f4718a02-2710-45c9-b45f-ce46f1b53186/original/as/Codigo_de_Conduta_Nosso_Codigo_v3.1.pdf" target="_blank">Código de Conduta</a></li>
+                <li><a href="https://oneaudi-falcon-asset-urls.prod.renderer.one.audi/api/assets/p123727-e1214567/publish?path=/content/dam/country/br/Site_Notice.pdf" target="_blank" >Aviso Legal</a></li>
+                <li><a href="https://www.audi.com.br/pt/tools/navigation/layer/legal/">Proteção de Dados-LGPD</a></li>
+                <li><a href="https://www.audi-imprensa.com.br">Sala de Imprensa</a></li>
+            </ul>          
+        </div>
+        <div class="ibama">
+        <img src="imagens/IBAMA-Logo.avif" alt="ibama logo">
+            <p>Desacelere. Seu bem maior é a vida</p>
+            </div>
+    </footer>
+        
+</body>
+</html>
+
